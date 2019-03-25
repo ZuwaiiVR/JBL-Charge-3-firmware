@@ -42,12 +42,13 @@ Dump, then upload the new fw, download, verify, then start processor, then you p
 I was using an Arduino board, disconnected the microprocessor and using the FT232RL only. you might need to solder pin 3 (RTS) on the ft chip with a thin wire. and desolder pin 4 and connect this to 3v3 volt. (thus it is normally operating on 5v because arduino)
 Connect all pins thru a 220/330ohm resistor. and use the pin layout provided here.
 
-#| JBL board  	| FT232   
-1 GND   	| GND    
+
+JBL board | FT232
+1 GND   	| GND
 2 MISO   	| DSR
 3 MOSI   	| RI#
-4 CLK    	| RTS#
-5 CSB    	| DTR# 
+4 CLK    	| RTS
+5 CSB    	| DTR
 6 3v3    	| leave unconnected
 
 There are no markings unlike the flip4 hack from https://hackaday.io/project/162337/instructions
