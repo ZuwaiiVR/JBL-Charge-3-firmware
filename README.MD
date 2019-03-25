@@ -44,6 +44,7 @@ Connect all pins thru a 220/330ohm resistor. and use the pin layout provided her
 
 
 JBL board | FT232
+----------|-------
 1 GND   	| GND
 2 MISO   	| DSR
 3 MOSI   	| RI#
