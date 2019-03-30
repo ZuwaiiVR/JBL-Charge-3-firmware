@@ -58,3 +58,5 @@ I figured it out by just guesing and if it was not working i just swap pins unti
 As for the programmer/driver install, please follow https://github.com/lorf/csr-spi-ftdi
 It is not really necesery to update the config file (on PSTOOL), but if you do, besure to preserve the mac address of that device!
 
+https://github.com/Dnstje/JBL-Charge-3-firmware/blob/master/APL05732.JPG
+https://github.com/Dnstje/JBL-Charge-3-firmware/blob/master/APL05738.JPG
